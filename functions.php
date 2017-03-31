@@ -127,9 +127,9 @@ function mysalesblog_widgets_init() {
 		'name'          => esc_html__( 'Sidebar', 'mysalesblog' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
+		'before_widget' => '<section id="%1$s" ><div class="container-fluid"><div class="row"> <div class="col s12 m12"> <div class="card"> <div class="card-content">',
+		'after_widget'  => '</div></div></div></div></section>',
+		'before_title'  => '<h2 class="card-title">',
 		'after_title'   => '</h2>',
 	) );
 }
